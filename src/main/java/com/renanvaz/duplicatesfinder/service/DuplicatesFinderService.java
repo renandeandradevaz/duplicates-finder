@@ -104,6 +104,7 @@ public class DuplicatesFinderService {
                 summary.put(matchResult.getAccuracy().toString(), summary.get(matchResult.getAccuracy().toString()) + 1);
             }
         }
+        System.out.println("");
         System.out.println("Summary: " + summary);
     }
 
